@@ -6,10 +6,11 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const clientDist = path.resolve(root, '..', '..', 'frontend', 'dist');
+const backendRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+// backend/src/server.js -> backend/ -> repository root -> frontend/dist
+const clientDist = path.resolve(backendRoot, '..', 'frontend', 'dist');
 const statuses = ['Submitted', 'Under Review', 'More Information Required', 'Approved', 'Rejected'];
-const dataFile = name => path.join(root, 'data', name);
+const dataFile = name => path.join(backendRoot, 'data', name);
 const readFixture = async name => JSON.parse(await readFile(dataFile(name), 'utf8'));
 const cleanText = value => typeof value === 'string' ? value.trim().replace(/[<>]/g, '') : '';
 const demoHealth = () => ({ status: 'ok', service: 'WaterNav API', mode: 'illustrative-demo', persistence: 'in-memory-requests-reset-on-restart' });

@@ -20,7 +20,7 @@ The React app runs at http://localhost:5173 and the Express API at http://localh
 WaterNav deploys as **one Railway service**: Express serves the built Vite app and its API under the same domain.
 
 1. Push this repository to GitHub and create a Railway service from it.
-2. Set the build command to `npm run build` and start command to `npm start`. Railway supplies `PORT`; do not hard-code a public port.
+2. Set the build command to `npm run build` and start command to `npm start`. The start script also runs the client build before Express starts, so the deployed static client is present even if a build phase is skipped. Railway supplies `PORT`; do not hard-code a public port.
 3. Add `NODE_ENV=production` and `CORS_ORIGIN=https://<your Railway domain>` to Railway Variables. See `.env.example` for variable names only.
 4. Deploy and verify `https://<your-domain>/api/health` returns `status: ok` and `mode: illustrative-demo`.
 
