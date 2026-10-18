@@ -33,7 +33,8 @@ export function createApp({ env = process.env } = {}) {
   let requestStore;
   const store = async () => { if (!requestStore) requestStore = createDemoRequestStore(await readFixture('requests.json')); return requestStore; };
   app.set('trust proxy', 1);
-  app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
+  // OSM requires browser tile requests to retain their cross-origin Referer.
+  app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false, referrerPolicy: { policy: 'strict-origin-when-cross-origin' } }));
   app.use(cors({ origin(origin, callback) { if (!origin || !allowedOrigins.length || allowedOrigins.includes(origin)) return callback(null, true); return callback(Object.assign(new Error('Origin is not permitted.'), { status: 403 })); } }));
   app.use(express.json({ limit: '100kb' }));
   const sensitiveLimit = rateLimit({ windowMs: 15 * 60 * 1000, limit: 60, standardHeaders: 'draft-8', legacyHeaders: false, message: { error: 'Too many requests. Please try again later.' } });
