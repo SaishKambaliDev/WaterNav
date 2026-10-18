@@ -1,0 +1,7 @@
+[
+  {"id":"stp-waluj","name":"Waluj Demonstration STP","lat":19.830,"lng":75.245,"capacityKld":12000,"actualOutputKld":8100,"committedKld":4200,"potentialUncommittedKld":3900,"quality":"Tertiary treatment reported (demo)","status":"Operational — demo record","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"stp-chikalthana","name":"Chikalthana Demonstration STP","lat":19.860,"lng":75.398,"capacityKld":8500,"actualOutputKld":5700,"committedKld":2800,"potentialUncommittedKld":2900,"quality":"Secondary treatment reported (demo)","status":"Operational — demo record","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"stp-shendra","name":"Shendra Demonstration STP","lat":19.814,"lng":75.336,"capacityKld":6000,"actualOutputKld":3900,"committedKld":1500,"potentialUncommittedKld":2400,"quality":"Tertiary treatment reported (demo)","status":"Operational — demo record","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"stp-kumbhephal","name":"Kumbhephal Demonstration STP","lat":19.837,"lng":75.459,"capacityKld":4500,"actualOutputKld":2600,"committedKld":1000,"potentialUncommittedKld":1600,"quality":"Quality confirmation pending (demo)","status":"Operational — demo record","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"stp-midc","name":"MIDC Corridor Demonstration STP","lat":19.796,"lng":75.290,"capacityKld":7000,"actualOutputKld":0,"committedKld":0,"potentialUncommittedKld":0,"quality":"Commissioning/status unconfirmed (demo)","status":"No output supplied in demo data","verification":"DEMO DATA — NOT VERIFIED"}
+]

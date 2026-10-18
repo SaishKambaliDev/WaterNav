@@ -1,0 +1,14 @@
+[
+  {
+    "id": "req-demo-1",
+    "industryName": "Aurora Components (Demo)",
+    "quantityKld": 350,
+    "intendedUse": "Cooling",
+    "requiredQuality": "Non-potable industrial reuse",
+    "preferredSource": "Waluj Demonstration STP",
+    "startDate": "2027-01-15",
+    "status": "Submitted",
+    "createdAt": "2026-10-17T00:00:00.000Z",
+    "verification": "DEMO DATA — NOT VERIFIED"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "waternav",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm ci --prefix backend && npm ci --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
+    "test": "npm run test --prefix backend"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}

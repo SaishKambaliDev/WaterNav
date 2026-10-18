@@ -1,0 +1,12 @@
+[
+  {"id":"ind-1","name":"Aurora Components (Demo)","sector":"Auto components","lat":19.829,"lng":75.251,"demandKld":550,"use":"Cooling & utilities","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-2","name":"Deccan Textiles (Demo)","sector":"Textiles","lat":19.837,"lng":75.263,"demandKld":820,"use":"Process & washing","quality":"Subject to quality testing","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-3","name":"Shendra Fabrication (Demo)","sector":"Engineering","lat":19.816,"lng":75.328,"demandKld":300,"use":"Cooling","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-4","name":"Marathwada Foods (Demo)","sector":"Food processing","lat":19.821,"lng":75.342,"demandKld":240,"use":"Utilities","quality":"Quality review required","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-5","name":"Chikalthana Metals (Demo)","sector":"Metals","lat":19.858,"lng":75.385,"demandKld":680,"use":"Cooling","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-6","name":"Airport Logistics (Demo)","sector":"Logistics","lat":19.872,"lng":75.405,"demandKld":120,"use":"Landscape & washing","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-7","name":"Waluj Pharma (Demo)","sector":"Pharmaceuticals","lat":19.818,"lng":75.232,"demandKld":410,"use":"Utilities","quality":"Specific quality validation required","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-8","name":"Precision Polymers (Demo)","sector":"Plastics","lat":19.805,"lng":75.277,"demandKld":360,"use":"Cooling","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-9","name":"Kumbhephal Engineering (Demo)","sector":"Engineering","lat":19.842,"lng":75.449,"demandKld":210,"use":"Cooling","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"},
+  {"id":"ind-10","name":"Shendra Packaging (Demo)","sector":"Packaging","lat":19.806,"lng":75.350,"demandKld":175,"use":"Washing","quality":"Non-potable industrial reuse","verification":"DEMO DATA — NOT VERIFIED"}
+]
