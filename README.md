@@ -33,3 +33,5 @@ The map uses Leaflet with OpenStreetMap and Esri tiles, not Google Maps. No Goog
 Sample STPs and industries are stored in `backend/data/stps.json` and `backend/data/industries.json`; replace them only with appropriately verified source data, including a verification status and dates. `backend/data/requests.json` supplies initial example requests; new or edited requests are retained only in server memory for the active session.
 
 Cost outputs are illustrative only. Validate water quality, reliability, contracts, legal approvals, site suitability and infrastructure engineering independently.
+
+  This is a demo prototype only developed for Seva Innovation Challenge 2026
