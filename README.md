@@ -1,6 +1,7 @@
 # WaterNav prototype
 
 WaterNav is a local demonstration for treated-wastewater reuse planning around the Waluj–Shendra–Chikalthana industrial region. **Every record is fictional, labelled `DEMO DATA — NOT VERIFIED`, and must not be used as evidence of supply, pipeline infrastructure, approvals, or customer commitments.**
+WaterNav aims to be a government and industrial based software as a whole providing solution for efficient management of water reusage routes.
 
 ## Run locally
 
@@ -16,6 +17,7 @@ No database or local environment file is required. Vite runs on `http://localhos
 The React app runs at http://localhost:5173 and the Express API at http://localhost:5000. Use `npm test` for the included backend smoke test and `npm run build --prefix frontend` for a production frontend build.
 
 ## Railway deployment
+
 
 WaterNav deploys as **one Railway service**: Express serves the built Vite app and its API under the same domain.
 
